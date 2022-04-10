@@ -29,7 +29,7 @@ public class Fish extends Animal {
 
     @Override
     public void eat(){
-        System.out.println("fish eating");
+        System.out.println("fish is eating seaweed");
     }
 
     @Override

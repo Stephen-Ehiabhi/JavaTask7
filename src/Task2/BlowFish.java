@@ -28,7 +28,7 @@ public class BlowFish extends Fish{
 
     @Override
     public void eat(){
-        System.out.println("Blowfish is eating");
+        System.out.println("Blowfish is eating seaweed");
     }
 
     @Override

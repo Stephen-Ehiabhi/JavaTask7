@@ -1,21 +1,20 @@
 package Task2;
 
-public class Pigeon {
+public class Pigeon extends Bird {
     private String species;
-
 
     Pigeon(){
         super();
         this.species = "Null";
     }
 
-    public Fish(String name, String age, String weight_fields, String species){
+    public  Pigeon(String name, String age, String weight_fields, String species){
         super(name,age,weight_fields);
         this.species = species;
     }
 
-    public Fish(String name, String species){
-        super(name);
+    public  Pigeon(String name, String featherColor,String species){
+        super(name,featherColor,species);
         this.species = species;
     }
 
@@ -29,16 +28,16 @@ public class Pigeon {
 
     @Override
     public void eat(){
-        System.out.println("fish eating");
+        System.out.println("Pigeon is eating seeds");
     }
 
     @Override
     public void getVoice(){
-        System.out.println("fish Sound!");
+        System.out.println("Pigeon is making sound");
     }
 
     @Override
     public void ToString(){
-        System.out.printf("Fish species: %s\nAge:", species);
+        System.out.printf("Pigeon species: %s\n", this.species);
     }
 }

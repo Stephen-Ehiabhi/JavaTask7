@@ -9,14 +9,14 @@ public class Bird extends Animal {
         this.canFly = true;
     }
 
-    public Bird(String name, String age, String weight_fields, Boolean canFly){
+    public Bird(String name, String age, String weight_fields){
         super(name,age,weight_fields);
-        this.canFly = canFly;
+        this.weight_fields = weight_fields;
     }
 
-    public Bird(String name, String weight){
+    public Bird(String name, String featherColor){
         super(name);
-        this.weight_fields = weight;
+        this.featherColor = featherColor;
     }
 
     public String getColor(){
