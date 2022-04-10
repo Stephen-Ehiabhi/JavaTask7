@@ -1,29 +1,29 @@
 package Task2;
 
 public class Pigeon extends Bird {
-    private String species;
+    private String Ehiabhi56481species;
 
     Pigeon(){
         super();
-        this.species = "Null";
+        this.Ehiabhi56481species = "Null";
     }
 
-    public  Pigeon(String name, String age, String weight_fields, String species){
-        super(name,age,weight_fields);
-        this.species = species;
+    public  Pigeon(String Ehiabhi56481name, String Ehiabhi56481age, String Ehiabhi56481weight_fields, String Ehiabhi56481species){
+        super(Ehiabhi56481name,Ehiabhi56481age,Ehiabhi56481weight_fields);
+        this.Ehiabhi56481species = Ehiabhi56481species;
     }
 
-    public  Pigeon(String name, String featherColor,String species){
-        super(name,featherColor,species);
-        this.species = species;
+    public  Pigeon(String Ehiabhi56481name, String Ehiabhi56481featherColor,String Ehiabhi56481species){
+        super(Ehiabhi56481name,Ehiabhi56481featherColor,Ehiabhi56481species);
+        this.Ehiabhi56481species = Ehiabhi56481species;
     }
 
-    public String getSpecies() {
-        return this.species;
+    public String getSpeciesEhiabhi56481() {
+        return this.Ehiabhi56481species;
     }
 
-    public void setSpecies(String newSpecies) {
-        this.species = newSpecies;
+    public void setSpeciesEhiabhi56481(String newSpecies) {
+        this.Ehiabhi56481species = newSpecies;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class Pigeon extends Bird {
 
     @Override
     public void ToString(){
-        System.out.printf("Pigeon species: %s\n", this.species);
+        System.out.printf("Pigeon species: %s\n", this.Ehiabhi56481species);
     }
 }

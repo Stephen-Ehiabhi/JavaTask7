@@ -1,35 +1,35 @@
 package Task2;
 
 public class Bird extends Animal {
-    private  String featherColor;
-    private Boolean canFly;
+    private  String Ehiabhi56481featherColor;
+    private Boolean Ehiabhi56481canFly;
 
    Bird(){
         super();
-        this.canFly = true;
+        this.Ehiabhi56481canFly = true;
     }
 
-    public Bird(String name, String age, String weight_fields){
-        super(name,age,weight_fields);
-        this.weight_fields = weight_fields;
+    public Bird(String Ehiabhi56481name, String Ehiabhi56481age, String Ehiabhi56481weight_fields){
+        super(Ehiabhi56481name,Ehiabhi56481age,Ehiabhi56481weight_fields);
+        this.Ehiabhi56481weight_fields = Ehiabhi56481weight_fields;
     }
 
-    public Bird(String name, String featherColor){
-        super(name);
-        this.featherColor = featherColor;
+    public Bird(String Ehiabhi56481name, String Ehiabhi56481featherColor){
+        super(Ehiabhi56481name);
+        this.Ehiabhi56481featherColor = Ehiabhi56481featherColor;
     }
 
-    public String getColor(){
-            return this.featherColor;
+    public String getColorEhiabhi56481(){
+            return this.Ehiabhi56481featherColor;
         }
 
         //set variables
-        public void setColor(String newColor){
-            this.featherColor = newColor;
+        public void setColorEhiabhi56481(String Ehiabhi56481newColor){
+            this.Ehiabhi56481featherColor = Ehiabhi56481newColor;
         }
 
-        public void setCanFly(Boolean fly){
-            this.canFly = fly;
+        public void setCanFlyEhiabhi56481(Boolean Ehiabhi56481fly){
+            this.Ehiabhi56481canFly = Ehiabhi56481fly;
         };
 
     @Override
@@ -44,7 +44,7 @@ public class Bird extends Animal {
 
     @Override
     public void ToString(){
-        System.out.printf("Bird feather color: %s\n", this.featherColor);
+        System.out.printf("Bird feather color: %s\n", this.Ehiabhi56481featherColor);
     }
 
 }

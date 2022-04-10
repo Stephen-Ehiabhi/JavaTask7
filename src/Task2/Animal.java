@@ -1,55 +1,56 @@
 package Task2;
 
 abstract class Animal {
-    protected String name, age,weight_fields;
+    protected String Ehiabhi56481name, Ehiabhi56481age,Ehiabhi56481weight_fields;
 
     public Animal(){
-        name = "Null";
-        weight_fields = "30kg";
-        age = "12";
+        Ehiabhi56481name = "Null";
+        Ehiabhi56481weight_fields = "30kg";
+        Ehiabhi56481age = "12";
     }
 
-    public Animal(String name, String age, String weight_fields){
-        this.name = name;
-        this.age = age;
-        this.weight_fields = weight_fields;
+    public Animal(String Ehiabhi56481name, String Ehiabhi56481age, String Ehiabhi56481weight_fields){
+        this.Ehiabhi56481name = Ehiabhi56481name;
+        this.Ehiabhi56481age = Ehiabhi56481age;
+        this.Ehiabhi56481weight_fields = Ehiabhi56481weight_fields;
     }
 
-    public Animal(String name){
-        this.name = name;
+    public Animal(String Ehiabhi56481name){
+        this.Ehiabhi56481name = Ehiabhi56481name;
     }
+
 
     //to get a particular variable
     abstract void eat ();
+
     abstract void getVoice ();
 
-    public String getName (){
-        return name;
+    public String getNameEhiabhi56481 (){
+        return Ehiabhi56481name;
     }
 
-    public String getAge (){
-        return age;
+    public String getAgeEhiabhi56481 (){
+        return Ehiabhi56481age;
     }
 
-    public String getWeight (){
-        return weight_fields;
+    public String getWeightEhiabhi56481 (){
+        return Ehiabhi56481weight_fields;
     }
 
     //to set a variable
-    public String setName (String newName){
-        return this.name = newName;
+    public String setNameEhiabhi56481 (String newName){
+        return this.Ehiabhi56481name = newName;
     }
 
-    public String setAge (String newAge){
-        return this.age = newAge;
+    public String setAgeEhiabhi56481 (String Ehiabhi56481newAge){
+        return this.Ehiabhi56481age = Ehiabhi56481newAge;
     }
 
-    public String setWeight (String newWeight){
-        return this.weight_fields = newWeight;
+    public String setWeightEhiabhi56481 (String Ehiabhi56481newWeight){
+        return this.Ehiabhi56481weight_fields = Ehiabhi56481newWeight;
     }
 
     public void ToString (){
-        System.out.printf("Animal name: %s\n", this.name);
+        System.out.printf("Animal name: %s\n", this.Ehiabhi56481name);
     }
-
 }

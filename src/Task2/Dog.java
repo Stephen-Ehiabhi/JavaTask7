@@ -1,28 +1,28 @@
 package Task2;
 
 public class Dog extends Mammal {
-    private String breed;
+    private String Ehiabhi56481breed;
 
     Dog(){
         super();
-        breed = "Null";
+        Ehiabhi56481breed = "Null";
     }
 
-     public Dog(String name, String age, String weight_fields, String breed){
-        super(name,age,weight_fields,breed);
-        this.breed = breed;
+     public Dog(String Ehiabhi56481name, String Ehiabhi56481age, String Ehiabhi56481weight_fields, String Ehiabhi56481breed){
+        super(Ehiabhi56481name,Ehiabhi56481age,Ehiabhi56481weight_fields,Ehiabhi56481breed);
+        this.Ehiabhi56481breed = Ehiabhi56481breed;
     }
 
-    public Dog(String name,String breed){
-      super(name,breed);
+    public Dog(String Ehiabhi56481name,String Ehiabhi56481breed){
+      super(Ehiabhi56481name,Ehiabhi56481breed);
     }
 
-    public String getBreed(){
-        return breed;
+    public String getBreedEhiabhi56481(){
+        return Ehiabhi56481breed;
     }
 
-    public void setBreed(String newBreed){
-         this.breed = newBreed;
+    public void setBreedEhiabhi56481(String Ehiabhi56481newBreed){
+         this.Ehiabhi56481breed = Ehiabhi56481newBreed;
     }
 
     @Override
@@ -38,7 +38,7 @@ public class Dog extends Mammal {
 
     @Override
     public void ToString(){
-        System.out.printf("Breed: %s\n", this.breed);
+        System.out.printf("Breed: %s\n", this.Ehiabhi56481breed);
     }
 
 }

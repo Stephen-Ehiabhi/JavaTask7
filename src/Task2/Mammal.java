@@ -1,21 +1,21 @@
 package Task2;
 
 public class Mammal extends Animal {
-    private String type;
+    private String Ehiabhi56481type;
 
     Mammal(){
         super();
-        this.type = "Null";
+        this.Ehiabhi56481type = "Null";
     }
 
-    public Mammal(String name, String age, String weight_fields, String type){
-        super(name,age,weight_fields);
-        this.type = type;
+    public Mammal(String Ehiabhi56481name, String Ehiabhi56481age, String Ehiabhi56481weight_fields, String Ehiabhi56481type){
+        super(Ehiabhi56481name,Ehiabhi56481age,Ehiabhi56481weight_fields);
+        this.Ehiabhi56481type = Ehiabhi56481type;
     }
 
-    public Mammal(String name, String type){
-       super(name);
-       this.type = type;
+    public Mammal(String Ehiabhi56481name, String Ehiabhi56481type){
+       super(Ehiabhi56481name);
+       this.Ehiabhi56481type = Ehiabhi56481type;
     }
 
     @Override
@@ -30,7 +30,7 @@ public class Mammal extends Animal {
 
     @Override
     public void ToString(){
-        System.out.printf("Mammal type: %s\n", this.type);
+        System.out.printf("Mammal type: %s\n", this.Ehiabhi56481type);
     }
 
 }

@@ -1,29 +1,29 @@
 package Task2;
 
 public class BlowFish extends Fish{
-   private String height;
+   private String Ehiabhi56481height;
 
     BlowFish(){
         super();
-        this.height = "Null";
+        this.Ehiabhi56481height = "Null";
     }
 
-    public BlowFish(String name, String age,String weight_fields, String height){
-        super(name,age,weight_fields,height);
-        this.height = height;
+    public BlowFish(String Ehiabhi56481name, String Ehiabhi56481age,String Ehiabhi56481weight_fields, String Ehiabhi56481height){
+        super(Ehiabhi56481name,Ehiabhi56481age,Ehiabhi56481weight_fields,Ehiabhi56481height);
+        this.Ehiabhi56481height = Ehiabhi56481height;
     }
 
-    public BlowFish(String name, String height){
-        super(name, height);
-        this.height = height;
+    public BlowFish(String Ehiabhi56481name, String Ehiabhi56481height){
+        super(Ehiabhi56481name, Ehiabhi56481height);
+        this.Ehiabhi56481height = Ehiabhi56481height;
     }
 
-    public String getHeight() {
-        return this.height;
+    public String getHeightEhiabhi56481() {
+        return this.Ehiabhi56481height;
     }
 
-    public void setHeight(String newHeight) {
-        this.height = newHeight;
+    public void setHeightEhiabhi56481(String Ehiabhi56481newHeight) {
+        this.Ehiabhi56481height = Ehiabhi56481newHeight;
     }
 
     @Override
@@ -38,7 +38,7 @@ public class BlowFish extends Fish{
 
     @Override
     public void ToString(){
-        System.out.printf("Blowfish height: %s\nAge:", this.height);
+        System.out.printf("Blowfish height: %s\nAge:", this.Ehiabhi56481height);
     }
 
 }
