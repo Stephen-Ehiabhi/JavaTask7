@@ -1,6 +1,6 @@
 package Task2;
 
-public class Mammal extends Animal {
+public class Mammal extends Animal implements AnimalMove {
     private String Ehiabhi56481type;
 
     Mammal(){
@@ -26,6 +26,11 @@ public class Mammal extends Animal {
     @Override
     public void getVoice() {
         System.out.println("Mammal sound");
+    }
+
+    @Override
+    public void move(){
+        System.out.println("Mammal run");
     }
 
     @Override

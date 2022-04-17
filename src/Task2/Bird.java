@@ -1,6 +1,6 @@
 package Task2;
 
-public class Bird extends Animal {
+public class Bird extends Animal implements AnimalMove {
     private  String Ehiabhi56481featherColor;
     private Boolean Ehiabhi56481canFly;
 
@@ -41,6 +41,11 @@ public class Bird extends Animal {
         public void getVoice(){
             System.out.println("Bird whistling");
        }
+
+    @Override
+    public void move(){
+        System.out.println("Bird fly");
+    }
 
     @Override
     public void ToString(){

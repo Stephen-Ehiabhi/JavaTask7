@@ -1,6 +1,6 @@
 package Task2;
 
-public class Dog extends Mammal {
+public class Dog extends Mammal implements AnimalBehavior, AnimalMove {
     private String Ehiabhi56481breed;
 
     Dog(){
@@ -35,6 +35,15 @@ public class Dog extends Mammal {
         System.out.println("Dog Barking");
     }
 
+    @Override
+    public void sleep(){
+        System.out.println("Dog is sleeping");
+    }
+
+    @Override
+    public void move(){
+        System.out.println("Dog is running");
+    }
 
     @Override
     public void ToString(){

@@ -1,6 +1,6 @@
 package Task2;
 
-abstract class Animal {
+abstract class Animal implements AnimalMove {
     protected String Ehiabhi56481name, Ehiabhi56481age,Ehiabhi56481weight_fields;
 
     public Animal(){
@@ -24,6 +24,8 @@ abstract class Animal {
     abstract void eat ();
 
     abstract void getVoice ();
+
+    public void move(){};
 
     public String getNameEhiabhi56481 (){
         return Ehiabhi56481name;

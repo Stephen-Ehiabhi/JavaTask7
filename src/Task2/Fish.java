@@ -1,6 +1,6 @@
 package Task2;
 
-public class Fish extends Animal {
+public class Fish extends Animal implements AnimalMove{
     private String Ehiabhi56481species;
 
     Fish(){
@@ -34,6 +34,11 @@ public class Fish extends Animal {
     @Override
     public void getVoice(){
         System.out.println("fish Sound!");
+    }
+
+    @Override
+    public void move(){
+        System.out.println("Fish swim");
     }
 
     @Override

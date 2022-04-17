@@ -1,6 +1,6 @@
 package Task2;
 
-public class BlowFish extends Fish{
+public class BlowFish extends Fish implements AnimalBehavior, AnimalMove{
    private String Ehiabhi56481height;
 
     BlowFish(){
@@ -34,6 +34,16 @@ public class BlowFish extends Fish{
     @Override
     public void getVoice(){
         System.out.println("Blowfish Sound!");
+    }
+
+    @Override
+    public void sleep(){
+        System.out.println("Blowfish is sleeping");
+    }
+
+    @Override
+    public void move(){
+        System.out.println("Blowfish is swimming");
     }
 
     @Override
